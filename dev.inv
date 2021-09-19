@@ -1,2 +1,2 @@
 [dev]
-172.16.238.21 ansible_user=root ansible_password=root
+172.16.238.21 ansible_user=root
