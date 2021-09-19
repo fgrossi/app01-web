@@ -1,5 +1,5 @@
 ---
--	hosts: dev 
+- hosts: dev 
 become: True // perché ho bisogno del sudo per installare un package di cui ho bisogno
 tasks:
 -	name: Install python pip
