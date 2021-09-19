@@ -7,7 +7,7 @@
     - name: Start the container
       docker_container:
         name: example-web
-        image: francescogrossi/docker-ansible-demo:299894d
+        image: francescogrossi/docker-ansible-demo:{{ DOCKER_TAG }}
         state: started
         recreate: yes
         detach: true
