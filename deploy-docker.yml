@@ -7,7 +7,7 @@
     - name: Start the container
       docker_container:
         name: app01-web
-        image: francescogrossi/docker-ansible-demo:299894d       //${DOCKER_TAG}
+        image: francescogrossi/docker-ansible-demo:299894d
         state: started
         recreate: yes
         detach: true
