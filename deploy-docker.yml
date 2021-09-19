@@ -6,7 +6,7 @@
   tasks:
     - name: Start the container
       docker_container:
-        name: app01-web
+        name: example-web
         image: francescogrossi/docker-ansible-demo:299894d
         state: started
         recreate: yes
