@@ -16,4 +16,4 @@
         image: francescogrossi/docker-ansible-demo:${DOCKER_TAG}
         state: started
         published_ports: 
-          - 0.0.0.0:8080:8080
+          - 0.0.0.0:10080:8080
