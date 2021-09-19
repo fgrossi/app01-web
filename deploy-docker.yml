@@ -11,6 +11,7 @@
   //      name: docker-py
   //      state: present 
     - name: Start the container
+      ansible_python_interpreter:/root/anaconda3/bin/python
       docker_container:
         name: app01-web
         image: francescogrossi/docker-ansible-demo:${DOCKER_TAG}
