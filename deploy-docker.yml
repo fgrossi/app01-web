@@ -17,5 +17,7 @@
         name: app01-web
         image: francescogrossi/docker-ansible-demo:${DOCKER_TAG}
         state: started
-        published_ports: 
-          - 0.0.0.0:10080:8080
+        recreate: yes
+        detach: true
+        ports:
+          - "10080:8080"
